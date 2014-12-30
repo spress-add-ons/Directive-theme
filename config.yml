@@ -46,7 +46,7 @@ features:
 # Comments in posts
 comments:
     enabled: true
-    disqus_shortname: yosymfony
+    disqus_shortname:
 
 # Menus
 menu:
