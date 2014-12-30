@@ -1,0 +1,26 @@
+{
+    "name": "spress-add-ons/directive-theme",
+    "type": "spress-theme",
+    "description": "Directive theme for Spress",
+    "keywords": ["html5", "css3", "responsive", "template", "spress"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Victor Puertas",
+            "email": "vpgugr@gmail.com",
+            "homepage": "http://yosymfony.com"
+        }
+    ],
+    "require": {
+        "yosymfony/spress-installer": "~1.0"
+    },
+    "config": {
+        "vendor-dir": "_plugins/vendors"
+    },
+    "extra": {
+        "spress_name": "directive",
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

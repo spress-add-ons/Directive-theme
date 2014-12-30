@@ -1,0 +1,81 @@
+title: "Directive theme for Spress"
+description: "Another site creted with Spress"
+keywords:
+    - html5
+    - css3
+    - theme
+    - responsive
+    - spress
+
+author:
+    name: "Your name here"
+
+# Configure your brand
+brand:
+    title: "Hola! welcome to Directive theme"
+    tagline: |
+      A responsive HTML5 + CSS3 theme designed by
+      <a href="http://html5up.net">HTML5 UP</a>
+      <br/>
+      and released for free under the Creative Commons license.
+    slogan: |
+      We conduct experiments that
+      may or may not seriously
+      break the universe
+
+features:
+    "The First thing":
+        image: "assets/images/pic01.jpg"
+        description: |
+          Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur
+          tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam
+          vivamus eget. Nunc nibh morbi quis fusce lacus.
+    "The Second thing":
+        image: "assets/images/pic02.jpg"
+        description: |
+          Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur
+          tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam
+          vivamus eget. Nunc nibh morbi quis fusce lacus.
+    "The Third thing":
+        image: "assets/images/pic03.jpg"
+        description: |
+          Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur
+          tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam
+          vivamus eget. Nunc nibh morbi quis fusce lacus.
+
+# Comments in posts
+comments:
+    enabled: true
+    disqus_shortname: yosymfony
+
+# Menus
+menu:
+    top:
+       - { name: "Home", url: / }
+       - { name: "Blog", url: /blog }
+       - { name: "About", url: /about }
+    bottom:
+       - { name: "Spress add-ons", url: http://spress.yosymfony.com/add-ons }
+       - { name: "Spress Docs", url: http://spress.yosymfony.com/docs }
+
+# Posts pagination
+paginate: 0
+paginate_path: 'blog/page:num'
+
+# Social networks card
+social_networks:
+    twitter: spress_cms # Your id without @
+    facebook:  # Your URL
+    instagram: # Your id
+    github: https://github.com/spress/Spress
+    dribbble:  # Your id
+
+# RSS feed
+feed:
+    max_item: 10
+
+exclude:
+    - README.md
+    - LICENSE
+    - composer.json
+    - bower.json

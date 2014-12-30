@@ -1,0 +1,18 @@
+---
+layout: page
+title: Welcome the blog
+---
+<section>
+
+    <header>
+        <h2>Post list</h2>
+        <p>The latest new about us</p>
+    </header>
+
+    {% include "posts-list.html" with { posts: site.posts } %}
+
+    {% if site.posts | length < 1 %}
+        <p>Until now, there is no posts. :(</p>
+    {% endif %}
+
+</section>
