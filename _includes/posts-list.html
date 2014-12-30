@@ -2,7 +2,7 @@
 <ul class="posts-list">
     {% for post in posts %}
     <li class="posts-list-item">
-        <a href="{{ post.url }}">
+        <a href="{{ site.url }}{{ post.url }}">
             <h4>{{ post.title }}</h4>
         </a>
     </li>

@@ -7,15 +7,15 @@
 		<meta name="description" content="{{ page.description | default(site.description) }}" />
 		<meta name="keywords" content="{{ page.keywords | default(site.keywords) | join(',') }}" />
 		<!--[if lte IE 8]><script src="/assets/css/ie/html5shiv.js"></script><![endif]-->
-		<script src="/assets/js/jquery/dist/jquery.min.js"></script>
-		<script src="/assets/js/skel/dist/skel.min.js"></script>
-		<script src="/assets/js/init.js"></script>
+		<script src="{{ site.url }}/assets/js/jquery/dist/jquery.min.js"></script>
+		<script src="{{ site.url }}/assets/js/skel/dist/skel.min.js"></script>
+		<script src="{{ site.url }}/assets/js/init.js"></script>
 		
-			<link rel="stylesheet" href="/assets/css/skel.css" />
-			<link rel="stylesheet" href="/assets/css/style.css" />
-			<link rel="stylesheet" href="/assets/css/style-wide.css" />
+			<link rel="stylesheet" href="{{ site.url }}/assets/css/skel.css" />
+			<link rel="stylesheet" href="{{ site.url }}/assets/css/style.css" />
+			<link rel="stylesheet" href="{{ site.url }}/assets/css/style-wide.css" />
 		
-		<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.url }}/assets/css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
 		<div id="menu-top">
