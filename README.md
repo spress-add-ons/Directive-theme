@@ -1,6 +1,7 @@
 ## Directive theme for Spress
 
 Directive is a ported theme to Spress design by [HTML5 UP](http://html5up.net).
+[Live demo](http://spress-add-ons.github.io/directive/).
 
 ### License 
 Free for personal and commercial use under the [CCA 3.0 license](http://html5up.net/license)
