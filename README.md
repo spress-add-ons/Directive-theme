@@ -20,7 +20,7 @@ and run `composer update`:
 
 ```
 "require": {
-    "spress-add-ons/directive-theme": "~1.0-dev",
+    "spress-add-ons/directive-theme": "~1.0-dev"
 }
 ```
 
@@ -29,7 +29,7 @@ and run `composer update`:
 **Create a new site**:
 
 ```bash
-$ spress new:site /your-site-dir directive
+$ spress site:new /your-site-dir directive
 $ cd /your-site-dir directive
 $ spress site:build --server --watch
 ```
