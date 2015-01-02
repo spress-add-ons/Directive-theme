@@ -15,7 +15,7 @@ Free for personal and commercial use under the [CCA 3.0 license](http://html5up.
 
 ### How to install?
 
-Go to your [Spress](http://spress.yosymfony.com/) installation folder i.e  ~/Spress and add the following depencency to your `composer.json` file 
+Go to your [Spress](http://spress.yosymfony.com/) installation folder i.e  **~/Spress** and add the following depencency to your `composer.json` file 
 
 ```
 "require": {
