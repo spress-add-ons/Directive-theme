@@ -15,13 +15,18 @@ Free for personal and commercial use under the [CCA 3.0 license](http://html5up.
 
 ### How to install?
 
-Go to your Spress installation folder and add the following to your `composer.json`
-and run `composer update`:
+Go to your [Spress](http://spress.yosymfony.com/) installation folder i.e  **~/Spress** and add the following depencency to your `composer.json` file 
 
 ```
 "require": {
     "spress-add-ons/directive-theme": "~1.0-dev"
 }
+```
+
+and then run the following command to install the dependency.
+
+```
+$ composer update
 ```
 
 ### How to use?
