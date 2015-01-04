@@ -10,12 +10,16 @@
 		<script src="{{ site.url }}/assets/js/jquery/dist/jquery.min.js"></script>
 		<script src="{{ site.url }}/assets/js/skel/dist/skel.min.js"></script>
 		<script src="{{ site.url }}/assets/js/init.js"></script>
-		
+		<noscript>
 			<link rel="stylesheet" href="{{ site.url }}/assets/css/skel.css" />
 			<link rel="stylesheet" href="{{ site.url }}/assets/css/style.css" />
 			<link rel="stylesheet" href="{{ site.url }}/assets/css/style-wide.css" />
+		</noscript>	
 		
 		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.url }}/assets/css/ie/v8.css" /><![endif]-->
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+		<link rel="stylesheet" href="{{ site.url }}/assets/css/highlight-theme.css">
+		
 	</head>
 	<body>
 		<div id="menu-top">
@@ -88,5 +92,7 @@
 		
 		{% block javascript %}{% endblock %}
 
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+		<script>hljs.initHighlightingOnLoad();</script>
 	</body>
 </html>

@@ -60,7 +60,8 @@ HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a a
 ## Code Snippets
 
 ```
-var a = new object();
+$a = 'your text';
+$a .= ' and more';
 ```
 
 ## Buttons
