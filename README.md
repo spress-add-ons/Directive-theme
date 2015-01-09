@@ -1,10 +1,8 @@
 ## Directive theme for Spress
 
 Directive is a ported theme to Spress design by [HTML5 UP](http://html5up.net).
-[Live demo](http://spress-add-ons.github.io/directive/).
 
-### License 
-Free for personal and commercial use under the [CCA 3.0 license](http://html5up.net/license)
+[Live demo](http://spress-add-ons.github.io/directive/).
 
 ### Featured:
 
@@ -15,29 +13,47 @@ Free for personal and commercial use under the [CCA 3.0 license](http://html5up.
 
 ### How to install?
 
+#### Download a copy
+
+* Get a copy of the latest [release](https://github.com/spress-add-ons/Directive-theme/releases).
+* Uncompress it.
+* Go to `Directive-theme` folder
+* `spress site:build --server --watch`
+
+#### With Git
+
+* [Fork this repository](https://github.com/spress-add-ons/Directive-theme/fork)
+* Clone it: ` https://github.com/YOUR-USER/Directive-theme.git
+* Go to `Directive-theme` folder
+* `spress site:build --server --watch`
+
+#### Globally
+
+Some way to do it.
+
 Go to your [Spress](http://spress.yosymfony.com/) installation folder i.e  **~/Spress** and add the following depencency to your `composer.json` file 
 
-```
+```json
 "require": {
-    "spress-add-ons/directive-theme": "~1.0-dev"
+    "spress-add-ons/directive-theme": "1.0.*@dev"
 }
 ```
 
 and then run the following command to install the dependency.
 
-```
+```bash
 $ composer update
 ```
 
-### How to use?
-
-**Create a new site**:
+Next create your new site:
 
 ```bash
-$ spress site:new /your-site-dir directive
-$ cd /your-site-dir directive
+$ spress new:site /your-site-dir directive
+$ cd /your-site-dir
 $ spress site:build --server --watch
 ```
+
+### Configuration
 
 #### Menus
 
@@ -66,8 +82,12 @@ It's free.
 
 By default, Disqus comments are enabled. If you want a post without comments, set
 the `comments` variable to `false` at the Front-matter of the post:
-```
+
+```yaml
 ---
 comments: false
 ---
 ```
+
+### License 
+Free for personal and commercial use under the [CCA 3.0 license](https://creativecommons.org/licenses/by/3.0/)
