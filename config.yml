@@ -46,36 +46,26 @@ features:
 # Comments in posts
 comments:
     enabled: true
-    disqus_shortname:
+    disqus_shortname: ""
 
 # Menus
 menu:
     top:
-       - { name: "Home", url: / }
-       - { name: "Blog", url: /blog }
-       - { name: "About", url: /about }
+       - { name: "Home", url: "/" }
+       - { name: "Blog", url: "/blog" }
+       - { name: "About", url: "/about" }
     bottom:
-       - { name: "Spress add-ons", url: http://spress.yosymfony.com/add-ons }
-       - { name: "Spress Docs", url: http://spress.yosymfony.com/docs }
-
-# Posts pagination
-paginate: 0
-paginate_path: 'blog/page:num'
+       - { name: "Spress add-ons", url: "http://spress.yosymfony.com/add-ons" }
+       - { name: "Spress Docs", url: "http://spress.yosymfony.com/docs" }
 
 # Social networks card
 social_networks:
-    twitter: spress_cms # Your id without @
+    twitter: "spress_cms" # Your id without @
     facebook:  # Your URL
     instagram: # Your id
-    github: https://github.com/spress/Spress
+    github: "https://github.com/spress/Spress"
     dribbble:  # Your id
 
 # RSS feed
 feed:
     max_item: 10
-
-exclude:
-    - README.md
-    - LICENSE
-    - composer.json
-    - bower.json
