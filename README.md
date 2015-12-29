@@ -4,9 +4,9 @@ Directive is a ported theme to Spress design by [HTML5 UP](http://html5up.net).
 
 [Live demo](http://spress-add-ons.github.io/directive/).
 
-This theme requires Spress >= 2.0.
+**This theme requires Spress >= 2.0**. If you are using Spress 1.x, go to [1.0.0](https://github.com/spress-add-ons/Directive-theme/releases/tag/v1.0.0) version of the theme.
 
-### Featured:
+### Features:
 
 * Responsive design: Support to mobile and tablets.
 * Top and bottom menu.
@@ -20,7 +20,7 @@ This theme requires Spress >= 2.0.
 * Get a copy of the latest [release](https://github.com/spress-add-ons/Directive-theme/releases).
 * Uncompress it.
 * Go to `Directive-theme` folder
-* `spress site:build --server --watch`
+* Run `spress site:build --server --watch`
 
 #### With Git
 
@@ -33,7 +33,7 @@ This theme requires Spress >= 2.0.
 
 #### Menus
 
-This theme support top and bottom menus. To configure, you can edit
+This theme supports top and bottom menus. To configure, you can edit
 `top_menu` and `bottom_menu` options from the `config.yml`:
 
 ```yaml

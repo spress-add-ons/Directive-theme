@@ -45,7 +45,7 @@ features:
 
 # Comments in posts
 comments:
-    enabled: true
+    enabled: false
     disqus_shortname: ""
 
 # Menus

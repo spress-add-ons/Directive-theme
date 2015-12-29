@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: "post"
 title: "Welcome to Spress"
 subtitle: "Spress works!!"
-categories: [posts]
-tags: [welcome,spress]
+categories: ["posts"]
+tags: ["welcome","spress"]
 ---
-To create a new post, simply run `spress new:post` command or add a file
-in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.md`.
+To create a new post, simply runs `spress new:post` command or adds a file
+in the `./src/content/posts` folder that follows the convention `YYYY-MM-DD-name-of-post.md`.
 
 More information about Spress:
 
