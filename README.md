@@ -22,7 +22,7 @@ Directive is a ported theme to Spress design by [HTML5 UP](http://html5up.net).
 * Go to `Directive-theme` folder
 * Run `spress site:build --server --watch`
 
-#### With Git
+#### Using Git
 
 * [Fork this repository](https://github.com/spress-add-ons/Directive-theme/fork)
 * Clone it: ` https://github.com/YOUR-USER/Directive-theme.git
