@@ -4,6 +4,8 @@ Directive is a ported theme to Spress design by [HTML5 UP](http://html5up.net).
 
 [Live demo](http://spress-add-ons.github.io/directive/).
 
+This theme requires Spress >= 2.0.
+
 ### Featured:
 
 * Responsive design: Support to mobile and tablets.
